@@ -1,0 +1,71 @@
+.table-wrapper {
+  position: relative;
+  width: 80%;
+}
+
+.table-scroll {
+  height: 210px;
+  overflow: auto;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.table-wrapper table {
+  width: 100%;
+}
+
+.table-wrapper table * {
+  /*   background: yellow;
+  color: black; */
+}
+
+.table-wrapper table thead th {
+  text-align: left;
+}
+
+.table-wrapper table thead th .text {
+  position: absolute;
+  top: -20px;
+  z-index: 2;
+  height: 20px;
+//  border: 1px solid red;
+}
+
+table.cruises {
+table-layout:fixed;
+}
+table.cruises td.source {
+  width: 1in;
+}
+
+table.cruises tr.even > td.source  {
+  background: #C7E0C1;
+}
+
+table.cruises tr.odd > td.source {
+  background: #B7C3E8;
+}
+
+table.cruises tr.odd > td.description  {
+  background: #C7E0C1;
+}
+
+table.cruises tr.even > td.description {
+  background: #B7C3E8;
+}
+
+table.cruises tr.even > td.servings  {
+  background: #C7E0C1;
+}
+
+table.cruises tr.odd > td.servings {
+  background: #B7C3E8;
+}
+
+table.cruises th.source {
+  width: 80px;
+}
+
+table.cruises th.description {
+  width: 200px;
+}
